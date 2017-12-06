@@ -1,0 +1,366 @@
+/* Los estilos de tu proyecto */
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+body
+{
+	font-family: Raleway;
+	color: white;
+}
+
+/*Estilos encabezado*/
+.navbar
+{
+	height: 6em;
+	width: 100%;
+	background-color: #ffff;
+	/*border: 1px solid black;*/
+}
+
+/*Estilo logo del encabezado*/
+.logo
+{
+	margin-top: 1.5em;
+	margin-left: 4em;
+}
+
+/*Estilo menu*/
+.nav
+{
+	/*border: 1px solid red;*/ /*ayuda visual*/
+	padding-right: 3em;
+	padding-top: 1em;
+	float: right;
+}
+
+/*Estilo de la primera seccion foto fondo y formulario */
+.first
+{
+	background-image: url(../images/taxi.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 30% 92%;
+	width: 100%;
+	height: 50em;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+
+/*Estilo del formulario de la caja amarilla*/
+.formulario
+{
+	padding: 2em 0 2em 4em;
+	margin-top: 9em;
+	background-color: #ffc300;
+	height: 29em;
+}
+
+/*Estilo titulo*/
+h2
+{
+	font-weight: bold;
+}
+
+/*Estilo del logo blanco*/
+.logoWhite
+{
+	height: 1em;
+	width: auto;
+	margin-bottom: 0.5em;
+	margin-right: 0.3em;
+}
+
+/*estilo lineaA separadora*/
+.lineaA
+{
+	border-bottom: 1px solid white;
+	margin-top: 2em;
+	margin-left: 1em;
+	width: 10em;
+}
+
+/*estilo lineaB separadora*/
+.lineaB
+{
+	border-bottom: 1px solid white;
+	margin-top: 2em;
+	margin-left: 2em;
+	width: 10em;
+}
+
+/*Estilo texto entre las lineas*/
+.text
+{
+	margin-top: 1.5em;
+	margin-left: 1.4em;
+}
+
+/*Estilo boton conviertete en conductor*/
+.btn2
+{
+	margin-top: 1em;
+}
+
+/*Estilo en tamano movil*/
+/*logo*/
+.logoWhite2
+{
+	height: 0.6em;
+	width: auto;
+	margin: -0.8em 0 1.5em 2.2em;
+}
+/*boton*/
+.btn3
+{
+	color: #000;
+	width: 9em;
+	height: 2em;
+	margin-bottom: 3em;
+	border-radius: 0.3em;
+	border: none;
+	background-color: #ffff;
+}
+
+/*Estilo segunda seccion*/
+.second
+{
+	background-color:  #ffc300;
+}
+
+/*Estilo de la caja con la foto del celu y descripcion*/
+.yellowBox
+{
+	border: 1px solid white;
+	margin: 2em 0;
+	padding: 2em;
+	font-size: 1.5em;
+}
+
+/*Estilo foto celular*/
+.cell
+{
+	padding-left: 2em;
+}
+
+/*Estilo texto*/
+.textDown
+{
+	font-size: 0.9em;
+	padding-right: 9em;
+	margin-top: 1em;
+}
+
+/*texto version movil*/
+.newText
+{
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.newText2
+{
+	margin: 0 0 1em 1em;
+}
+
+/*Estilo tercera seccion*/
+.third
+{
+	background-image: url(../images/conduce.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 30% 55%;
+	width: 100%;
+	height: 30em;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+
+/*Estilo oscurecido*/
+.black
+{
+	background-color: rgba(0,0,0, 0.5); 
+	height: 30em;
+}
+
+/*Estilo titulo*/
+.title
+{
+	margin-top: 2.5em;
+	margin-left: 1.5em;
+	margin-right: 1em
+}
+
+/*estilo boton*/
+.btn5
+{
+	background-color: #ffc300;
+	color: #ffff;
+	border: none;
+	margin-left: 2.3em;
+	margin-top: 1em;
+}
+
+/*Estilo texto*/
+.text2
+{
+	margin-left: 2.5em;
+}
+
+/*Estilo cuarta seccion*/
+.fourth
+{
+	background-color:  #ffc300;
+	height: 35em;
+}
+
+/*Estilo de tarifas*/
+.tarifas
+{
+	height: 20em;
+	padding: 4em 0 4em 5em;
+}
+
+/*Estilos botones pto partida y destino*/
+.startButton
+{
+	width: 16em;
+	text-align: left;
+}
+
+/*Estilo boton trazar ruta*/
+.ruta
+{
+	border: none;
+	margin-left: 5em;
+	margin-top: 2em;
+}
+
+/*Estilo mapa*/
+iframe
+{
+	height: 20em;
+	width: 30em;
+	margin-top: 7em;
+	margin-left: 2em;
+	border: 1px solid white;
+}
+
+.shape1
+{
+	margin-bottom: 1em;
+}
+
+.startButton
+{
+	margin-bottom: 1em;
+	background-color: #ffc300;
+	color: white;
+	border-color: white;
+}
+
+.ruta
+{
+	text-align: center;
+}
+
+/*Estilo seccion footer*/
+.theFooter
+{
+	background-color: #2f2f2f;
+	height: 40em;
+	padding: 5em;
+}
+
+/*.imgLogos
+{
+	border: 1px solid red;
+}*/
+
+/*Estilo parte del logo*/
+.firstRowFooter
+{
+	height: 5em;
+}
+
+/*Estilos iconos*/
+.icon
+{
+	color: white;
+	height: 0.5em;
+	width: auto;
+}
+
+/*Estilo*/
+.copyright
+{
+	padding-top: 1em
+}
+
+/*Estilo linea blanca superior en el footer*/
+.lineaC
+{
+	border-bottom: 1px solid white;
+	margin: 1em 0em;
+}
+
+
+/*Estilo linea blanca inferior en el footer*/
+.lineaD
+{
+	border-bottom: 1px solid white;
+	margin: 1em 0em;
+	width: 82em;
+}
+
+
+/*Estilos iconos version movil*/
+.iconsMov
+{
+	margin: 0 1em 3em 1em;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+@media (max-width: 700px)
+{
+	.fourth
+	{
+		height: 56em; 
+	}
+
+	/*Estilo menu version movil en forma de hamburguesa*/
+	.menu
+	{
+		float: left;
+	}
+
+	/*Estilo que tendra el menu al desplegarse de la hamburguesa*/
+	#navbar-1
+	{
+		background-color: #ffff;
+		float: left;
+	}
+	
+	/*nuevo estilo formulario amarillo*/
+	.formulario
+	{
+		height: 18em;
+		margin-top: 15em;
+		padding: 1em;
+	}
+	
+	/*Nuevo estilo linea blanca inferior en el footer*/
+	.lineaD
+	{
+		border-bottom: 1px solid white;
+		margin: 0 0.5em;
+		width: 25em;
+	}
+
+}
+
+

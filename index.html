@@ -1,1 +1,325 @@
 <!-- Suelta tus manos y tu mente para solucionar este reto -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <title> Lab-<ar </title>
+  
+  <!-- grilla -->
+  <link rel="stylesheet" href="assets/css/grid.css">
+  <!--css bootstrap-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- mis estilos css -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- enlace fuente -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+  <!-- iconos de icomoon-->
+  <link rel="stylesheet" href="assets/icomoon/style.css">
+
+</head>
+<body>
+  <!--Encabezado-->
+  <section class="header">
+    <!-- Barra navegacion -->
+    <nav class="navbar navbar-default navbar-fixed-top"> <!--si le quito el -defaul el color de fondo cambiara del gris-->
+      <!--contenedor de todos los elementos, 100% de la pantalla -->
+      <div class="container">  <!-- container-fluid -->
+       
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed menu" data-toggle="collapse" data-target="#navbar-1">  <!--se entrelaza con el 'id' de la lista de abajo -->
+            <!-- solo en dispositivos 's' se vera menu hamburguesa -->
+            <span class="sr-only">Menu</span>
+            <!--lineas que van dentro del menu hamburguesa -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>        
+          </button>
+          <!-- imagen logo -->
+          <img class="logo" src="assets/images/logoForma.png" alt="logo">
+        </div>
+
+        <!-- menu de la derecha, en version movil se desplegara del menu hamburguesa -->
+        <div class="collapse navbar-collapse" id="navbar-1"> <!-- se entrelaza con el # que esta en el boton de arriba -->
+          <ul class="nav navbar-nav">
+            <li><a href="">Viaja</a></li>
+            <li><a href="">Conduce</a></li>
+            <li><a href="">Iniciar Sesión</a></li>
+          </ul>
+        </div> <!-- fin del menu de la derecha -->
+
+      </div> <!-- fin contenedor -->
+    </nav> 
+  </section> <!-- fin seccion encabezado -->
+  
+  <!-- Primera seccion imagen de fondo y formulario -->
+  <section class="first">
+    <!-- container -->
+    <div class="container-fluid">
+      <!-- fila -->
+      <div class="row">
+        <!-- columnas responsive -->
+        <!-- cuadro amarillo del formulario -->
+        <div class=" formulario formularioMovil col-xs-10 col-xs-offset-2 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 col-lg-5 col-lg-offset-7">
+            <!--version tamano grande, desaparecera en version movil -->
+            <h1 class="hidden-xs">Disfruta del viaje</h1>
+            <h1 class="hidden-xs">Eres dueño de tu tiempo</h1>
+            <br>
+            <h4 class="hidden-xs visible-sm visible-md visible-lg">Viaja con <img class="logoWhite" src="assets/images/logoBlanco.png" alt="logoWhite"></h4>
+            <!-- boton -->
+            <button type="button" class=" hidden-xs btn btn-default btn-md btn1">REGÍSTRATE</button>
+            
+            <!-- formar lineas separadoras  -->
+            <!-- fila -->
+            <div class="row">
+              <!-- columna -->
+              <div class="hidden-xs col-sm-12 col-md-12">
+                <!-- primera linea -->
+                <div class="hidden-xs col-sm-5 col-md-5 lineaA"></div>
+                <!-- texto entre las lineas -->
+                <div class="hidden-xs col-sm-2 col-md-2 text">O bien</div>
+                <!-- segunda linea -->
+                <div class="hidden-xs col-sm-5 col-md-5 lineaB"></div>
+              </div> <!-- fin columna -->
+            </div> <!-- fin fila -->
+
+            <!-- boton -->
+            <button type="button" class=" hidden-xs btn btn-default btn-md btn2">Conviertete en un conductor</button>
+
+             <!-- version movil, se mostrara en minimo tamano -->
+            <h1 class=" visible-col-xs-2 col-xs-offset-1 hidden-sm hidden-md hidden-lg textMovil">Comienza a viajar</h1>
+            
+            <h1 class=" visible-col-xs-2 col-xs-offset-1 hidden-sm hidden-md hidden-lg">con <img class="logoWhite2 visible-xs hidden-sm" src="assets/images/logoBlanco.png" alt="logoWhite2"></h1>
+            <!-- logo blanco -->
+            
+            <button type="button" class="visible-xs col-xs-offset-2 col-xs hidden-sm hidden-md hidden-lg btn3" >Descarga el app</button>
+            <!-- fin version movil -->
+
+        </div>  <!-- fin columnas responsive -->
+      </div> <!-- fin fila -->
+    </div> <!-- fin container fluid -->
+  </section> <!-- fin primera seccion -->
+
+  <!--segunda seccion foto celular  -->
+  <section class="second">
+    <!-- primera fila del contenedor -->
+    <div class="row">
+      <!-- columnas -->
+      <div class="col-lg-10">
+
+        <div class="yellowBox">
+          <div class="row">
+
+            <div class="col-lg-6">
+               
+               <h3 class=" visible-xs visible-sm visible-md hidden-lg newText">La nueva app</h3>
+
+              <img class="cell" src="assets/images/iPhone6Plus.png" alt="cellPhoto">
+            </div> <!-- fin columnas foto cel -->
+              
+            <!-- columna con descripcion escrita-->
+            <div class="col-lg-6 hidden-xs hidden-sm hidden-md">
+              <h3>Descarga la nueva app</h3>
+              <p class="textDown">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido</p>
+              <p class="textDown">Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+            </div> <!-- fin columnas descripcion escrita -->
+            
+
+          </div> <!-- fin fila --> 
+        </div> <!-- fin del cuadro aparte que se encuentra dentro de la seccion -->
+        
+        <!--  -->
+        <h3 class=" visible-xs visible-sm visible-md hidden-lg newText2">Llega a tu destino aún más rápido.</h3>
+        
+      </div> <!-- fin primera columna de la seccion -->
+
+    </div> <!-- fin primera fila del contenedor -->
+
+    <!-- </div> --> <!-- fin container fluid -->
+  </section> <!-- fin seccion de la foto de celu -->
+  
+  <!-- Tercera seccion  segunda foto de fondo-->
+  <section class="third">
+    <!-- fila -->
+    <div class="row">
+      <!-- columnas -->
+      <div class="col-md-4 col-md-offset-8 black">
+        <h3 class="title">Conduce cuando quieras</h3>
+        <p class="text2">LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+
+        <button type="button" class="btn btn-default boton btn5">Conviértete en un conductor</button>
+        
+      </div>
+    </div> <!-- fin fila -->
+  </section> <!-- fin tercera seccion -->
+  
+  <!-- cuarta seccion tarifas y mapas-->
+  <section class="fourth">
+    <!-- fila -->
+    <div class="row">
+      <!-- contenedor para tarifas -->
+      <div class="tarifas">
+        <!-- primera columna de tarifas -->
+        <div class="col-xs-12 col-md-12  col-lg-6">
+
+          <h2>Tarifas</h2>
+          <p>Consulta las tarifas LabCar aquí</p>
+
+          <!-- fila para shape1 y boton pto partida -->
+          <div class="row shapeButton">
+          <!-- columnas para shapes -->
+           <div class="col-xs-3 col-md-3">
+            <!-- imagenes shapes -->
+            <img class="shape1" src="assets/images/shape.png" alt="shape1">
+            <br>
+            <br>
+            <img class="shape2" src="assets/images/shape2.png" alt="shape2">
+          </div> <!-- fin columnas -->
+          <!--botones-->
+          <div class="col-xs-9 col-md-9">
+
+            <button type="button" class="btn btn-default startButton">Ingrese su punto de partida</button>
+
+            <button type="button" class="btn btn-default startButton">Ingrese su destino</button>
+
+          </div> <!-- fin columna botones -->
+          </div> <!-- fin fila shapes y botones -->
+
+          <button type="button" class="btn btn-default ruta ">TRAZAR RUTA!!</button>
+
+        </div> <!-- fin primera columna tarifas -->
+      </div> <!-- fin contenedo tarifas -->
+
+      <!-- segunda columna mapa -->
+      
+      <div class="col-xs-12 col-md-12 col-lg-6">
+        <div class="row">
+
+          <div class="col-md-5 col-md-offset-1">
+            <!-- <div class="map"> -->
+
+              <!-- mapa extraido desde google maps -->
+
+              <iframe class="thumbnail image-responsive" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6660.35060094416!2d-70.64110096773679!3d-33.41867379272864!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512475216416" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            <!-- </div> -->  <!-- fin div mapa -->  
+          </div> <!-- fin columna -->
+        </div> <!-- fin fila  -->        
+      </div> <!--fin segunda columna mapa -->
+     
+
+    </div> <!-- fin primera fila -->
+  </section> <!-- fin cuarta seccion -->
+
+  <!-- seccion footer -->
+  <footer class="theFooter">
+    <!-- fila superior -->
+    <div class="row firstRowFooter">
+      <!-- columna -->
+      <div class="col-md-12 footerLogo">
+        <!-- imagen logo blanco-->
+        <img class="whiteLogo" src="assets/images/logoBlanco.png" alt="whiteLogo2">
+
+        <!-- linea blanca -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lineaC"></div>
+
+      </div> <!-- fin columna -->
+    </div> <!-- fin fila superior -->
+
+    <!-- Fila interior footer -->
+    <div class="row row-footer">
+      <!-- columna A del footer -->
+      <div class="col-xs-6 col-xs-offset-1  col-sm-6 col-md-2 col-md-offset-3">
+        <p>Viaja</p>
+        <p>Conduce</p>
+        <p>Ciudades</p>
+        <p>Ciudades</p>
+        <p>Entregas</p>
+        <p>Cómo funciona?</p>
+        <p>Paises</p>
+        <p>Seguridad</p>
+      </div> <!-- fin columna A -->
+      
+      <!-- columna B -->
+      <div class="hidden-xs hidden-sm col-md-3">  <!-- col-md-offset-1 -->
+        <p>Oportunidades</p>
+        <p>Nuestra historia</p>
+        <p>API de Labcar</p>
+        <p>Eventos</p>
+        <p>Desarrolladores</p>
+        <p>Servicios</p>
+        <p>Laboratoria</p>
+        <p>Coders</p>
+      </div> <!-- fin columna B -->
+      
+      <!-- columna C -->
+      <!-- iconos que apareceran en version movil-->
+      <div class="col-xs-5 col-sm-5 col-md-2" >
+        <div class="hidden-md hidden-sm hidden-lg iconsMov">
+          <!-- facebook -->
+          <span class="icon-facebook"></span>
+          <!-- twitter -->
+          <span class="icon-twitter"></span>
+          <!-- linkedin -->
+          <span class="icon-linkedin2"></span>
+          <!-- app Store -->
+          <span class="icon-appleinc"></span>
+          <!-- google play -->
+          <span class="icon-play3"></span>
+        </div> <!-- fin columna iconos -->
+
+        <!-- imagenes appStore y google play -->
+          <img class="appStore" src="assets/images/appstore.png" alt="appStore">
+          
+          <img class="googlePlay" src="assets/images/enBadgeWebGeneric.png" alt="google play">
+      </div> <!-- fin iconos y logos que aparecen en version movil -->
+    </div> <!-- fin fila interior footer -->
+
+    <!-- fila iconos copyright -->
+    <div class="row">
+
+      <!-- columna iconos -->
+      <div class="hidden-xs hidden-sm col-md-12 icons">
+        <!-- facebook -->
+        <span class="icon-facebook"></span>
+        <!-- twitter -->
+        <span class="icon-twitter"></span>
+        <!-- linkedin -->
+        <span class="icon-linkedin2"></span>
+        <!-- app Store -->
+        <span class="icon-appleinc"></span>
+        <!-- google play -->
+        <span class="icon-play3"></span>
+      </div> <!-- fin columna iconos -->
+
+      <!-- fila copyright y linea blanca -->
+      <div class="row rowCopy">
+        <!-- columna copyright y linea blanca-->
+        <div class="col-md-12 copyright">
+
+           <!-- linea blanca -->
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lineaD"></div>
+          <br>
+          <!-- copyright -->
+          <p> <span class="icon-copyright"> </span>2017 LabCar technologies Inc.</p> 
+
+        </div> <!-- fin columna copyright y linea-->
+      </div> <!-- fin fila copyright y linea -->
+
+    </div> <!--fin fila iconos copyright -->
+  </footer> <!-- fin footer -->
+
+
+<!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
+  <!-- enlace con jquery  -->
+  <script src="assets/js/jquery.js"></script>
+  <!-- jquery bootstrap -->
+  <script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+
